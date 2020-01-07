@@ -1,0 +1,17 @@
+Making your home page available on the cse.iitb.ac.in site:
+
+    Connect to your home directory on mars.cse.iitb.ac.in using ssh. Use your cse username and password for authentication.
+    Create a directory with name public_html in your home directory.
+    Give 755 permission to ur public_html
+    Copy all the files including html, images, css etc. to public_html directory (or any directory which is under public_html). You can use scp for this.
+    Name the file as index.html which you want to open first as your home page
+    Now your web page will be accessible with www.cse.iitb.ac.in/~< your_cse_account_name>/
+
+
+ssh mars.cse.iitb.ac.in
+
+ mkdir public_html
+
+chmod -R 755 public_html/
+
+scp Desktop/cse/vrunda.jpg  vrunda@mars.cse.iitb.ac.in:~/public_html 

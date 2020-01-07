@@ -1,0 +1,59 @@
+# jemdoc: menu{MENU}{index.html}, nofooter  
+==Vrunda Dave 
+
+~~~
+{}{img_left}{v.jpg}{alt text}{150}{217}{https://www.cse.iitb.ac.in/~vrunda}
+PhD,\n [https://www.cse.iitb.ac.in/ Computer Science Department], \n[https://www.iitb.ac.in/ Indian Institute of Technology Bombay (IITB)]\n
+Room No 301, [http://www.cfdvs.iitb.ac.in CFDVS Lab], \n
+New CC Building, Near SOM, \n 
+IIT Bombay, Powai - 400076 \n
+Email: /vrunda/ \[@\] cse \[DOT\] iitb \[DOT\] ac \[DOT\] in
+~~~
+
+== About me
+I received the B.Tech degree in Computer Science & engineering from Dharamsinh Desai Institute of Technology ([http://www.ddu.ac.in/ DDIT]), Gujarat, India, in 2014. Prior to joining PhD in CSE, IIT Bombay, I worked in Tata Research Development and Design Centre ([http://www.tata.in/innovation/articlesinside/TCS-innovation-labs TRDDC]), Pune from Jun-Dec 2014. In January 2015, I started PhD in Theoretical Computer Science under the supervision of 
+ [http://www.cse.iitb.ac.in/~krishnas/ Prof. Krishna S.]  
+
+== Research
+My research interests include 
+- Automata, Logic and Transducers  
+- Formal Verification
+- Rechability Games
+
+
+== Recent Publications 
+. Vrunda Dave, [http://di.ulb.ac.be/verif/filiot/ Emmanuel Filiot], [http://www.cse.iitb.ac.in/~krishnas/ Krishna Shankara Narayanan], [https://www.labri.fr/perso/nlhote/ Nathan Lhote], \"Deciding the Computability of Regular Functions over Infinite Words\", under submission. \[[https://arxiv.org/abs/1906.04199 arxiv]\]
+. Vrunda Dave, [http://www.lsv.fr/~gastin/ Paul Gastin], and [http://www.cse.iitb.ac.in/~krishnas/ Krishna Shankara Narayanan], \"Regular Transducer Expressions for Regular Transformations\", In 33rd Annual ACM/IEEE Symposium on Logic in Computer Science, [https://lics.siglog.org/lics18/ LICS 2018], Oxford, UK.\[[papers/RTE-LICS.pdf pdf]\] \[[papers/RTE-arxiv.pdf full-version]\] \[[papers/LICS-18.pdf slides]\]
+. Vrunda Dave, [http://www.cse.iitb.ac.in/~krishnas/ Shankara Narayanan Krishna], and [https://ashut.bitbucket.io/ Ashutosh Trivedi], \"FO-Definable Transformations of Infinite Strings\",  In 36th IARCS Annual Conference on Foundations of Software Technology and Theoretical Computer Science, [http://fsttcs.org/archives/2016/ FSTTCS 2016], Chennai, India.\[[papers/fo-inf.pdf pdf]\]  \[[papers/fo-inf-long.pdf full-version]\] \[[papers/fsttcs16.pdf slides]\]
+
+
+[https://dblp.uni-trier.de/pers/hd/d/Dave:Vrunda Full list of publications].
+
+
+== Experience
+- Summer Internship at [https://www.uu.se/en Uppsala University, Sweden] with [http://www.it.uu.se/katalog/mohat117/atig Mohamed Faouzi Atig] and [http://user.it.uu.se/~parosh/ Parosh Abdulla], from May 2019 to July 2019
+- Summer Internship at Ericsson Research with [https://www.ericsson.com/en/blog/contributors/q-t/swarup-kumar-mohalik Swarup Kumar Mohalik] form May 2016 to June 2016
+- Worked at Tata Reaserch Development and Design Centre (TRDDC) as Developer with Pavan Kumar Chittimalli and R D Naik from September 2014 to January 2015
+- B Tech Internship at TRDDC with Pavan Kumar Chittimalli and R D Naik from December 2013 to May 2014
+
+
+== Services
+- reviewer of [http://lcs.ios.ac.cn/concur2018 CONCUR 2018], [http://lcs.ios.ac.cn/formats2018/ FORMATS 2018]
+- reviewer of [https://www.editorialmanager.com/isse/ ISSE]
+- worked in organizing committee of [https://www.fsttcs.org.in/2019/index.php FSTTCS 2019], [https://www.cse.iitb.ac.in/~risc/ RISC 2016]
+
+== Awards
+- receiving Cisco fellowship (2016-2020)
+- awarded Microsoft travel grant for presenting paper at [https://lics.siglog.org/lics18/ LICS 2018]
+- awarded ACM IARCS travel grant for presenting paper at LICS 2018
+
+== Attended Events
+- [https://www.fsttcs.org.in/archives/2015/ FSTTCS 15], [https://www.fsttcs.org.in/archives/2016/ FSTTCS 16], [https://lics.siglog.org/lics18/ LICS'18]
+- [https://mosca19.github.io MOSCA'19],  [https://www.cse.iitb.ac.in/~krishnas/trends18/ Trends in Transformations'18], [https://indico.tifr.res.in/indico/conferenceDisplay.py?confId=5062 SAT+SMT workshop'16]
+- [https://www.cmi.ac.in/~acts/2017/index.html ACTS'17], [https://www.cse.iitb.ac.in/~akshayss/mysorepark16/mysorepark16 Mysore Park workshop'16], [https://www.cmi.ac.in/~sri/CAALM2019/ CAALM'19]
+
+#\n
+#[cv_vrunda.pdf A brief cv].
+
+
+
