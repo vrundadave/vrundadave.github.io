@@ -5,7 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Theory and Applications of Transducers</title>
+<title>On Some Fundamental Problems and Applications of Word Transducers</title>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -16,35 +16,41 @@
 <div class="menu-item"><a href="research.html" class="current">Research</a></div>
 <div class="menu-item"><a href="https://dblp.uni-trier.de/pers/hd/d/Dave:Vrunda">Publications</a></div>
 <div class="menu-item"><a href="pics.html">Pictures</a></div>
-<div class="menu-category">useful links</div>
-<div class="menu-item"><a href="http://jemdoc.jaboc.net/">Jemdoc</a></div>
-<div class="menu-item"><a href="http://www.lix.polytechnique.fr/~hermann/conf.html">TCS&nbsp;conferences</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Theory and Applications of Transducers</h1>
+<h1>On Some Fundamental Problems and Applications of Word Transducers</h1>
 </div>
 <p>The focus of my research is to develop foundations of formal models to express string-to-string transformations&#8201;&mdash;&#8201;such as streaming string transducers and transducer expressions&#8201;&mdash;&#8201;and to investigate their applications in formal analysis and verification of systems.
 The rich theory behind regular and omega-regular languages is the cornerstone of the automatic verification technology (model-checking) of reactive systems. 
 For instance, the interplay between expressive formalisms to define regular languages&#8201;&mdash;&#8201;such as (non-) deterministic finite automata, regular expressions, monadic  second order logic&#8201;&mdash;&#8201;has resulted in  modeling and specification formalisms that can be efficiently and automatically verified.
 While regular languages can only express properties of acceptable program traces, regular transformations can provide the vocabulary to express relations between input traces and observations sequences.
 Efficient decision procedures for such transformations can then be used in modular verification of safety and security properties of programs expressed as compositions of transducers. </p>
-<p>The contributions of our current research to the landscape of regular transformations are summarized below.</p>
+<p>The contributions of our current research to the landscape of word transformations are summarized below.</p>
 <ul>
-<li><p>A very fundamental result in the theory of transductions is the equivalence of MSO transductions and two-way transducers. This result is one of the corner stones in theoretical computer science, since it extends the classical result of Buchi-Elgot-Trakhtenbrot which shows the equivalence of MSO and regular languages, to the level of transductions. A subcase of this  theorem is obtained when one restricts the input language to counter-free languages. One then obtains an equivalence with First Order Logic. This result works on both finite as well as infinite words. A natural question to ask is whether there is a counterpart when one looks at transformations. To be precise, do Courcelle's FO transformations coincide with a particular subclass of SSTs and 2WST? And, is this result robust for
-finite and infinite words. 
-In our paper published in <a href="https://doi.org/10.4230/LIPIcs.FSTTCS.2016.12">fsttcs&rsquo;16</a>, we answer this question in the affirmative for the infinite words case, thereby showing that FO transformations coincide with aperiodic SSTs (a subclass of SSTs) and aperiodic two way transducer with star-free look-ahead.  </p>
+<li><p>A very fundamental result in the theory of transductions is the equivalence of MSO transductions and two-way transducers. This result is one of the corner stones in theoretical computer science, since it extends the classical result of Buchi-Elgot-Trakhtenbrot which shows the equivalence of MSO and regular languages, to the level of transductions. A subcase of this  theorem is obtained when one restricts the input language to counter-free languages. One then obtains an equivalence with First Order Logic. This result works on both finite as well as infinite words. A natural question to ask is whether there is a counterpart when one looks at transformations. To be precise, do Courcelle's FO transformations coincide with a particular subclass of SSTs and 2WST? And, is this result robust for finite and infinite words. In our paper published in FSTTCS&rsquo;16, we answer this question in the affirmative for the infinite words case, thereby showing that FO transformations coincide with aperiodic SSTs (a subclass of SSTs) and aperiodic two way transducer with star-free look-ahead.  </p>
 </li>
 </ul>
 <ul>
 <li><p>There exists a compact and very useful representation of regular languages in form of regular expressions (also known as regex in
-programming). We have recently extended this result in case of transformations and we call it regular transducer expression(RTE). We
-have shown equivalence of RTE and omega-RTE with regular and omega-regular transformations respectively. All results can be
-found in this <a href="https://arxiv.org/abs/1802.02094">paper</a> published in LICS&rsquo;18.</p>
+programming). We show that every regular function, either on finite words or on infinite words, captured by a deterministic two-way transducer, can be described with a regular transducer expression (RTE). For infinite words, the two-way transducer uses Muller acceptance and regular look-ahead. RTEs are constructed from constant functions using the combinators if-then-else (deterministic choice), Hadamard product, and unambiguous versions of the Cauchy product and its reverse, the 2-chained Kleene-iteration and its reverse, and the 2-chained omega-iteration. All results can be found in the papers published in LICS&rsquo;18 and Information and Computation journal.</p>
 </li>
 </ul>
-<p>Computability of Transducer definable function: 
-The class of regular functions from infinite words to infinite words is characterised by MSO-transducers, streaming omega-string transducers as well as deterministic two-way transducers with look-ahead. In their one-way restriction, the latter transducers define the class of rational functions. This paper proposes a decision procedure for the following question : given a  regular function f, is f computable (by a Turing machine with infinite input)? For regular functions, we show that computability is equivalent to continuity, and therefore the problem boils down to deciding continuity. We establish a generic characterisation of continuity for functions preserving regular languages under inverse image (such as regular functions). We exploit this characterisation to show the decidability of continuity (and hence computability) of rational and regular functions. For rational functions,  we show that this can be done  in NLogSpace (it was already known to be in PTime by Prieur). In a similar fashion, we also effectively characterise uniform continuity of regular functions, and relate it to the notion of uniform computability. </p>
+<ul>
+<li><p>The class of regular transformations is known to be closed under operations such as sequential composition and regular choice; problems such as functional equivalence and type checking are decidable for these classes. The one-way transducers define the class of rational functions. Even though regular functions are robustly characterized by several finite-state devices,  the subclass of rational functions may contain functions which are not computable (by a Turing machine with infinite input). We propose a decision procedure for the following synthesis problem: given a regular function f (equivalently specified by one of the aforementioned transducer model), is f computable and, if it is, synthesize a Turing machine computing it. We show that computability is equivalent to continuity for regular functions, and therefore the problem boils down to deciding continuity. We establish a generic characterization of continuity for functions preserving regular languages under inverse image (such as regular functions). We exploit this characterization to show the decidability of continuity (and hence computability) of rational and regular functions. For rational functions, we show that this can be done in NLogSpace (it was already known to be in PTime by Prieur). Similarly, we also effectively characterize uniform continuity of regular functions and relate it to the notion of uniform computability, which offers stronger efficiency guarantees. This work is published in CONCUR&rsquo;20.</p>
+</li>
+</ul>
+<ul>
+<li><p>Moving on to practical applications of transducers, we address the separability problem for straight-line string constraints. 
+The separability problem for languages of a class C by a class S asks: given two languages A and B in C, does there exist a language I in S separating A and B (i.e., I is a superset of A and disjoint from B)?
+The separability of string constraints is the same as the fundamental problem of interpolation for string constraints. 
+We first show that regular separability of straight-line string constraints is undecidable. 
+Our second result is the decidability of the separability problem for straight-line string constraints by piece-wise testable languages, though the precise complexity is open. 
+In our third result, we consider the positive fragment of piece-wise testable languages as a separator and obtain an ExpSpace algorithm for the separability of a useful class of straight-line string constraints, and a Pspace-hardness result. 
+The crucial part of the algorithm is the encoding of a set of satisfying assignments into the output language of a two-way transducer.
+This work is published in CONCUR&rsquo;20.</p>
+</li>
+</ul>
 </td>
 </tr>
 </table>

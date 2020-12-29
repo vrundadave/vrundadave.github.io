@@ -11,30 +11,29 @@ Email: /vrunda/ \[@\] cse \[DOT\] iitb \[DOT\] ac \[DOT\] in
 ~~~
 
 == About me
-I received the B.Tech degree in Computer Science & engineering from Dharamsinh Desai Institute of Technology ([http://www.ddu.ac.in/ DDIT]), Gujarat, India, in 2014. Prior to joining PhD in CSE, IIT Bombay, I worked in Tata Research Development and Design Centre ([http://www.tata.in/innovation/articlesinside/TCS-innovation-labs TRDDC]), Pune. In 2015, I started PhD in Theoretical Computer Science under the supervision of [http://www.cse.iitb.ac.in/~krishnas/ Prof. SN Krishna].  
+I received the B.Tech degree in Computer Science & engineering from Dharamsinh Desai Institute of Technology ([http://www.ddu.ac.in/ DDIT]), Gujarat, India, in 2014. Prior to joining PhD in CSE, IIT Bombay, I worked in Tata Research Development and Design Centre ([http://www.tata.in/innovation/articlesinside/TCS-innovation-labs TRDDC]), Pune from Jun-Dec 2014. In January 2015, I started PhD in Theoretical Computer Science under the supervision of [http://www.cse.iitb.ac.in/~krishnas/ Prof. SN Krishna].  
 
 == Research
 My research interests include 
 - Automata, Logic and Transducers  
 - Formal Verification
-- Algorithms
-- Machine Learning
+- Rechability Games
+
 
 == Recent Publications 
-. Vrunda Dave, [http://www.lsv.fr/~gastin/ Paul Gastin], and Shankara Narayanan Krishna, \"Regular Transducer Expressions for Regular Transformations\", In [https://authors.elsevier.com/a/1c8Ss3AV47Xrzz Information and Computation], November, 2020. \[[papers/RTE-IC.pdf pdf]\]
 . [http://user.it.uu.se/~parosh/ Parosh Abdulla], [http://www.it.uu.se/katalog/mohat117/atig Mohamed Faouzi Atig], Vrunda Dave and [http://www.cse.iitb.ac.in/~krishnas/ Shankara Narayanan Krishna], \"On the Separability Problem of String Constraints\", In 31st International Conference on Concurrency Theory, [https://concur2020.forsyte.at CONCUR 2020]. 
 . Vrunda Dave, [http://di.ulb.ac.be/verif/filiot/ Emmanuel Filiot], Shankara Narayanan Krishna, [https://www.labri.fr/perso/nlhote/ Nathan Lhote], \"Synthesis of Computable Regular Functions of Infinite Words\", In 31st International Conference on Concurrency Theory, [https://concur2020.forsyte.at CONCUR 2020]. 
 . Vrunda Dave, [http://www.lsv.fr/~gastin/ Paul Gastin], and Shankara Narayanan Krishna, \"Regular Transducer Expressions for Regular Transformations\", In 33rd Annual ACM/IEEE Symposium on Logic in Computer Science, [https://lics.siglog.org/lics18/ LICS 2018], Oxford, UK. \[[papers/RTE-LICS.pdf pdf]\] \[[papers/RTE-arxiv.pdf full-version]\] \[[papers/LICS-18.pdf slides]\]
 . Vrunda Dave, Shankara Narayanan Krishna, and [https://ashut.bitbucket.io/ Ashutosh Trivedi], \"FO-Definable Transformations of Infinite Strings\",  In 36th IARCS Annual Conference on Foundations of Software Technology and Theoretical Computer Science, [http://fsttcs.org/archives/2016/ FSTTCS 2016], Chennai, India. \[[papers/fo-inf.pdf pdf]\]  \[[papers/fo-inf-long.pdf full-version]\] \[[papers/fsttcs16.pdf slides]\]
-. Devendra Bhave, Vrunda Dave, Shankara Narayanan Krishna, [https://phawaderamchandra.github.io Ramchandra Phawade], Ashutosh Trivedi, \"A Perfect Class of Context-Sensitive Timed Languages\", In 20th International Conference on Developments in Language Theory, [https://dblp.uni-trier.de/db/conf/dlt/dlt2016.html DLT 2016], Montréal, Canada. \[papers/dlt.pdf pdf\]
-. Devendra Bhave, Vrunda Dave, Shankara Narayanan Krishna, Ramchandra Phawade, Ashutosh Trivedi, \"A Logical Characterization for Dense-Time Visibly Pushdown Automata\", In 10th International Conference on Language and Automata Theory and Applications, [https://dblp.uni-trier.de/db/conf/lata/lata2016.html LATA 2016], Prague, Czech Republic. \[papers/lata.pdf pdf\]
+
+
+[https://dblp.uni-trier.de/pers/hd/d/Dave:Vrunda Full list of publications].
 
 
 == Experience
 - Summer Internship at [https://www.uu.se/en Uppsala University, Sweden] with [http://www.it.uu.se/katalog/mohat117/atig Mohamed Faouzi Atig] and [http://user.it.uu.se/~parosh/ Parosh Abdulla], from May 2019 to July 2019
 - Summer Internship at Ericsson Research with [https://www.ericsson.com/en/blog/contributors/q-t/swarup-kumar-mohalik Swarup Kumar Mohalik] form May 2016 to June 2016
 - Worked at Tata Reaserch Development and Design Centre (TRDDC) as Developer with Pavan Kumar Chittimalli and R D Naik from September 2014 to January 2015
-- TCS Initial Learning Program in SAP in Gandhinagar, from June 2014 to September 2014
 - B Tech Internship at TRDDC with Pavan Kumar Chittimalli and R D Naik from December 2013 to May 2014
 
 
@@ -44,12 +43,12 @@ My research interests include
 - worked in organizing committee of [https://www.fsttcs.org.in/2019/index.php FSTTCS 2019], [https://www.cse.iitb.ac.in/~risc/ RISC 2016]
 
 == Awards
-- received Cisco fellowship (2016-2020)
+- receiving Cisco fellowship (2016-2020)
 - awarded Microsoft travel grant for presenting paper at [https://lics.siglog.org/lics18/ LICS 2018]
 - awarded ACM IARCS travel grant for presenting paper at LICS 2018
 
 == Attended Events
-- [https://www.fsttcs.org.in/archives/2015/ FSTTCS 15], [https://www.fsttcs.org.in/archives/2016/ FSTTCS 16], [https://lics.siglog.org/lics18/ LICS'18], [ CONCUR'20]
+- [https://www.fsttcs.org.in/archives/2015/ FSTTCS 15], [https://www.fsttcs.org.in/archives/2016/ FSTTCS 16], [https://lics.siglog.org/lics18/ LICS'18]
 - [https://mosca19.github.io MOSCA'19],  [https://www.cse.iitb.ac.in/~krishnas/trends18/ Trends in Transformations'18], [https://indico.tifr.res.in/indico/conferenceDisplay.py?confId=5062 SAT+SMT workshop'16]
 - [https://www.cmi.ac.in/~acts/2017/index.html ACTS'17], [https://www.cse.iitb.ac.in/~akshayss/mysorepark16/mysorepark16 Mysore Park workshop'16], [https://www.cmi.ac.in/~sri/CAALM2019/ CAALM'19]
 
